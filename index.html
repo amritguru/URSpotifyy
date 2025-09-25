@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="nav">
+        <span class="homeicon logo">
+            <img src="slogo.svg" class="slogo" alt="">
+        </span>
+        <span class="midnav">
+            <div class="homeicon homelogo">
+                <img src="home.svg" class="homeimg img" alt="">
+            </div>
+            <button class="homeicon searchlogo">
+                <img src="search.svg" class="searchimg" alt="">
+                <span style="padding-left: 10px;">Play your songs</span>
+                <img class="internetimg" src="https://img.icons8.com/liquid-glass/48/internet.png" alt="internet" />
+            </button>
+        </span>
+        <span class="rightnav">
+            <ul class="PSD">
+                <li>Premium </li>
+                <li>Support </li>
+                <li>Download </li>
+            </ul>
+            <ul class="login">
+                <li>Install App</li>
+            </ul>
+            <ul class="signup">
+                <li>Sign up</li>
+            </ul>
+            <button class="lgbutton">Log in</button>
+        </span>
+    </div>
+    <div class="container flex">
+        <div class="left border">
+            <div class="span3"><span>Your Library</span> <img width="20"
+                    src="https://img.icons8.com/ios-filled/50/FFFFFF/plus-math.png" alt="plus-math" /></div>
+            <div class=" YBbox">
+                <div class=" span1 YP">Your Playlist</div>
+                <ul class=" songlist">
+                    <!-- <li>
+                        <div class="songitem">
+                            <div class="playicon1">
+                                <img src="https://static.vecteezy.com/system/resources/previews/056/332/628/non_2x/modern-music-logo-design-vector.jpg"
+                                    alt="">
+                            </div>
+                            <div class="songinfo">
+                                <div>Song Name</div>
+                                <div>Artist Name</div>
+                            </div>
+                        </div>
+                        <div class="playicon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCGLIwOon5HPIoc4_cyL4GKBUyiM8P9avHLQDi5EvQLwJ_LUGhL0aqvYkKKt8_i3rSOo&usqp=CAU"" alt="">
+                        </div>
+                    </li> -->
+
+                </ul>
+            </div>
+            <!-- <div class=" playlist">
+                <span class="span1">Create Your Playlist</span>
+                <span class="span2"> It's easy, we'll help you</span>
+                <button class="ylbtn">Create Playlist</button>
+            </div> -->
+            <div class="playlist">
+                <span class="span1">Lets find some podcasts to follow</span>
+                <span class="span2">we'll keep you updated on new episodes</span>
+                <button class="ylbtn">Browse podcasts</button>
+            </div>
+            <div class="lfooter">
+                <div class="lffooter">
+                    <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy">Safety & Privacy Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility">Accessibility</a>
+                </div>
+                <button class="ylbtn langbtn">
+                    <img width="15" src="https://img.icons8.com/liquid-glass/48/internet.png" alt="internet--v1" />
+                    English
+                </button>
+            </div>
+        </div>
+        <div class="right border">
+            <div>Trending songs <span class="span4">Show all</span></div>
+
+            <div class="rgtop">
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic" src="https://i.scdn.co/image/ab67616d00001e02c1c166d36174214eb4d2c4b7"
+                            alt="">
+                        <h3>Halaas</h3>
+                        <p> Langa, Yssi SB, Rijck</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQCMWQfFQgr-iP_U8ZmhPiX5S87-qBuDaWA&s"
+                            alt="">
+                        <h3>Niemand Kan Blijven</h3>
+                        <p> Bente, Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToK0T59pNiqjBPqtckGxQ3Xk2iZETB6EciXUwI2cfpTW9FtkCl7lWqBvcudgh7-C5pnqo&usqp=CAU"
+                            alt="">
+                        <h3>WHERE IS MY</h3>
+                        <p> RAYE</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic" src="https://i.scdn.co/image/ab67616d00001e0266c5790096354289a8d063a7"
+                            alt="">
+                        <h3>Van De Regen Naar De Zon</h3>
+                        <p> Acda en de Munnik</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://images.genius.com/45243fcb568d71bbadd14c094b503c16.1000x1000x1.png" alt="">
+                        <h3>Mama Hui Niet</h3>
+                        <p> Jacqueline Govaert , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6t9sHMej1Csz2LL_TDpvnfCE42gEcGN7dNQ&s"
+                            alt="">
+                        <h3>Laatste Berichten</h3>
+                        <p> Young Eliens , Kans, Dior</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaO9oNwP0hT6rCxrP1_xtB2Q_ORBTsB3cmw&s"
+                            alt="">
+                        <h3>Alles Is Genegend</h3>
+                        <p> Snelle , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12FjXRWJRu-EYzcIN23d2lyOJt90XtQqFBw&s"
+                            alt="">
+                        <h3>Tafel Voor 2</h3>
+                        <p> Josylvio , KM</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <div>Popular Artists <span class="span4">Show all</span></div>
+            </div>
+            <div class="rgtop">
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic" src="https://i.scdn.co/image/ab67616d00001e02c1c166d36174214eb4d2c4b7"
+                            alt="">
+                        <h3>Halaas</h3>
+                        <p> Langa, Yssi SB, Rijck</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQCMWQfFQgr-iP_U8ZmhPiX5S87-qBuDaWA&s"
+                            alt="">
+                        <h3>Niemand Kan Blijven</h3>
+                        <p> Bente, Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToK0T59pNiqjBPqtckGxQ3Xk2iZETB6EciXUwI2cfpTW9FtkCl7lWqBvcudgh7-C5pnqo&usqp=CAU"
+                            alt="">
+                        <h3>WHERE IS MY</h3>
+                        <p> RAYE</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic" src="https://i.scdn.co/image/ab67616d00001e0266c5790096354289a8d063a7"
+                            alt="">
+                        <h3>Van De Regen Naar De Zon</h3>
+                        <p> Acda en de Munnik</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://images.genius.com/45243fcb568d71bbadd14c094b503c16.1000x1000x1.png" alt="">
+                        <h3>Mama Hui Niet</h3>
+                        <p> Jacqueline Govaert , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6t9sHMej1Csz2LL_TDpvnfCE42gEcGN7dNQ&s"
+                            alt="">
+                        <h3>Laatste Berichten</h3>
+                        <p> Young Eliens , Kans, Dior</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaO9oNwP0hT6rCxrP1_xtB2Q_ORBTsB3cmw&s"
+                            alt="">
+                        <h3>Alles Is Genegend</h3>
+                        <p> Snelle , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="artpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12FjXRWJRu-EYzcIN23d2lyOJt90XtQqFBw&s"
+                            alt="">
+                        <h3>Tafel Voor 2</h3>
+                        <p> Josylvio , KM</p>
+                    </div>
+                </div>
+
+            </div>
+            <div>Popular albums and singles<span class="span4">Show all</span></div>
+            <div class="rgtop">
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic" src="https://i.scdn.co/image/ab67616d00001e02c1c166d36174214eb4d2c4b7"
+                            alt="">
+                        <h3>Halaas</h3>
+                        <p> Langa, Yssi SB, Rijck</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSQCMWQfFQgr-iP_U8ZmhPiX5S87-qBuDaWA&s"
+                            alt="">
+                        <h3>Niemand Kan Blijven</h3>
+                        <p> Bente, Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToK0T59pNiqjBPqtckGxQ3Xk2iZETB6EciXUwI2cfpTW9FtkCl7lWqBvcudgh7-C5pnqo&usqp=CAU"
+                            alt="">
+                        <h3>WHERE IS MY</h3>
+                        <p> RAYE</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic" src="https://i.scdn.co/image/ab67616d00001e0266c5790096354289a8d063a7"
+                            alt="">
+                        <h3>Van De Regen Naar De Zon</h3>
+                        <p> Acda en de Munnik</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://images.genius.com/45243fcb568d71bbadd14c094b503c16.1000x1000x1.png" alt="">
+                        <h3>Mama Hui Niet</h3>
+                        <p> Jacqueline Govaert , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6t9sHMej1Csz2LL_TDpvnfCE42gEcGN7dNQ&s"
+                            alt="">
+                        <h3>Laatste Berichten</h3>
+                        <p> Young Eliens , Kans, Dior</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaO9oNwP0hT6rCxrP1_xtB2Q_ORBTsB3cmw&s"
+                            alt="">
+                        <h3>Alles Is Genegend</h3>
+                        <p> Snelle , Beste Zangers</p>
+                    </div>
+
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="songpic"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12FjXRWJRu-EYzcIN23d2lyOJt90XtQqFBw&s"
+                            alt="">
+                        <h3>Tafel Voor 2</h3>
+                        <p> Josylvio , KM</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="rfooter">
+                <div class="abovebar">
+                    <div class="songName"></div>
+
+                    <div class="playbox">
+                        <img id="previous"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTolPJCDPNfDjriOGY1p_xo6VJagV6QD3NiLQ&s"
+                            alt="">
+                        <img id="play"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCGLIwOon5HPIoc4_cyL4GKBUyiM8P9avHLQDi5EvQLwJ_LUGhL0aqvYkKKt8_i3rSOo&usqp=CAU"
+                            alt="">
+                        <img id="next"
+                            src="https://static.vecteezy.com/system/resources/thumbnails/025/320/497/small_2x/white-right-arrow-sign-in-black-circle-glyph-icon-or-symbol-vector.jpg"
+                            alt="">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+                <div class="playline">
+                    <div class="playtik"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

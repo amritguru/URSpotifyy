@@ -1,0 +1,17 @@
+.border{
+    background-color: rgb(21, 20, 20);
+    /* border-radius: 5px; */
+    /* margin: 3px; */
+    color: white;
+    
+
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
